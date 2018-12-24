@@ -1,68 +1,148 @@
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aarthi{
+    margin-left: 100px;
+    font-family:'Thasadith', sans-serif;
+    font-size: 30px;
+    color: #3a3a3a;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: background-color 1s ease;
+    background-color: white;
+}
+a.aarthi:hover{
+    opacity: 1;
+    background: rgb(255, 193, 201);
+}
 
-   .header {
-        height: 100px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .aarthi{
-        margin-left: 100px;
-        font-family:'Thasadith', sans-serif;
-        font-size: 30px;
-        color: #3a3a3a;
-        text-decoration: none;
-        cursor: pointer;
-        opacity: 0.7;
-        transition: background-color 1s ease;
-        background-color: white;
-    }
-    a.aarthi:hover{
-        opacity: 1;
-        background: rgb(255, 193, 201);
-    }
+.projects{
+    margin-right: 175px;
+    font-family:'Thasadith', sans-serif;
+    font-size: 30px;
+    color: #3a3a3a;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: background-color 1s ease;
+    background-color: white;
+}
+a.projects:hover{
+    opacity: 1;
+    background: rgb(255, 193, 201);
+}
+.resume{
+    margin-right: 50px;
+    font-family:'Thasadith', sans-serif;
+    font-size: 30px;
+    color: #3a3a3a;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: background-color 1s ease;
+    background-color: white;
+}
+a.resume:hover{
+    opacity: 1;
+    background: rgb(255, 193, 201);
+}
+.about{
+    margin-right: 50px;
+    font-family:'Thasadith', sans-serif;
+    font-size: 30px;
+    color: #3a3a3a;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: background-color 1s ease;
+    background-color: white;
+}
+a.about:hover{
+    opacity: 1;
+    background: rgb(255, 193, 201);
+}
 
-    .projects{
-        margin-right: 175px;
-        font-family:'Thasadith', sans-serif;
-        font-size: 30px;
-        color: #3a3a3a;
-        text-decoration: none;
-        cursor: pointer;
-        opacity: 0.7;
-        transition: background-color 1s ease;
-        background-color: white;
+.contentContainer{
+    width: 300px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    transition: background-color 1s ease;
+    background-color: rgb(255, 249, 193);
+}
+.contentContainer:hover{
+    background:rgb(255, 193, 201);
+}
+
+.electrical_engineering{
+    font-family: 'Thasadith', sans-serif;
+    font-size: 24px;
+    color:#444444;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.electrical_engineering:hover{
+    opacity: 1;
+}
+.leftContainer {
+    margin-top: 55px;
+    width: 50%;
+    margin-left: 100px;
+    padding-right: 100px;
     }
-    a.projects:hover{
-        opacity: 1;
-        background: rgb(255, 193, 201);
-    }
-    .resume{
-        margin-right: 50px;
-        font-family:'Thasadith', sans-serif;
-        font-size: 30px;
-        color: #3a3a3a;
-        text-decoration: none;
-        cursor: pointer;
-        opacity: 0.7;
-        transition: background-color 1s ease;
-        background-color: white;
-    }
-    a.resume:hover{
-        opacity: 1;
-        background: rgb(255, 193, 201);;
-    }
-    .about{
-        margin-right: 50px;
-        font-family:'Thasadith', sans-serif;
-        font-size: 30px;
-        color: #3a3a3a;
-        text-decoration: none;
-        cursor: pointer;
-        opacity: 0.7;
-        transition: background-color 1s ease;
-        background-color: white;
-    }
-    a.about:hover{
-        opacity: 1;
-        background: rgb(255, 193, 201);
-    }
+.headline {
+    color: #444444;
+    line-height: 1.7em;
+    font-family:'Thasadith', sans-serif;
+    font-size: 50px;
+    width: 100%;
+}
+.subheadline {
+    color: #7f7f7f;
+    /* color: #a5a5a5; */
+    line-height: 1.7em;
+    font-family:'Thasadith', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+.bodytitle{
+    color: #3a3a3a;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 30px;
+    line-height: 1.7em;
+}
+.bodytext{
+    color: #444444;
+    font-family:  'Roboto', sans-serif;
+    font-size: 15px;
+}
+.bodysubtext{
+    color: #3a3a3a;
+    font-family:   'Roboto', sans-serif;
+    font-size: 18px;
+}
+.right {
+    /*float: right;
+    width: 500px;*/
+    margin-top: 55px;
+    width: 40%;
+    margin-left: 750px;
+    /*padding-right: 100px; */
+    background-color: rgb(255, 145, 159);
+    color: rgb(255, 145, 159);
+    margin-top: -230px;
+    font-size: 250px;
+}
+    
+.barrier{
+    margin-left: -10px;
+     margin-right: 20px;
+    width: 93%;
+    align-items: flex-start;
+    background-color: rgb(255, 145, 159);
+    color: rgb(255, 145, 159);
+}
