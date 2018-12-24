@@ -125,7 +125,7 @@ a.about:hover{
     color: #444444;
     line-height: 1.7em;
     font-family:'Thasadith', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     width: 100%;
 }
 .subheadline {
@@ -133,8 +133,13 @@ a.about:hover{
     /* color: #a5a5a5; */
     line-height: 1.7em;
     font-family:'Thasadith', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     width: 100%;
+}
+.hello {
+    font-family: 'Caveat', cursive;
+    font-size: 75px;
+    color: black;
 }
 .bodytitle{
     color: #3a3a3a;
