@@ -84,10 +84,10 @@ a.about:hover{
     color: #444444;
     cursor: pointer;
     transition: background-color 1s ease;
-    background-color:  rgb(255, 193, 201);
+    background-color:  rgb(129, 226, 196); 
 }
 .engineering:hover{
-    background: rgb(255, 249, 193);
+    background: rgb(255, 193, 201); /*rgb(255, 249, 193);*/
     text-decoration: underline;
 }
 .engineering:hover>.hiddenproject { 
@@ -115,11 +115,11 @@ a.about:hover{
     font-size: 30px;
     color: #444444;
     transition: background-color 1s ease;
-    background-color: rgb(255, 193, 201);
+    background-color: rgb(129, 226, 196);
 }
 .art:hover{
     opacity: 1;
-    background: rgb(255, 249, 193);
+    background: rgb(255, 193, 201); /*rgb(255, 249, 193);*/
     text-decoration: underline;
 }
 .headline {
@@ -178,4 +178,18 @@ a.about:hover{
     align-items: flex-start;
     background-color: rgb(255, 145, 159);
     color: rgb(255, 145, 159);
+}
+.aboutmeContainer{
+    margin-top: -150px;
+    width: 50%;
+    margin-left: 0px;
+    padding-right: 50px;    
+}
+.leftaboutmeContainer{
+    margin-top: -650px;
+    width: 50%;
+    margin-left: 1000px;
+    padding-right: 50px;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 35px;
 }
