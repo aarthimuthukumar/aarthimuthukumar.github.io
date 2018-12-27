@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quickfile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Thasadith:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="MAINCSS.css" />
+    <script src="quickfile.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="https://aarthimuthukumar.github.io">aarthi muthukumar</a>
+        <div class="overlay">
+            <button class="icon" onclick="toggleNav()">
+                <ul>
+                    <li class="line"></li>
+                    <li class="line"></li>
+                    <li class="line"></li>
+                </ul>
+            </button>
+        </div>
+        <ul class="navigation">
+            <li class="navlink">
+                <a href="https://aarthimuthukumar.github.io">home</a>
+            </li>
+            <li class="navlink">
+                <a href="https://aarthimuthukumar.github.io/about.html">about</a>
+            </li>
+            <li class="navlink">
+                <a href="https://aarthimuthukumar.github.io/projects.html">projects</a>
+            </li>
+            <li class="navlink">
+                <a href="">résumé/cv</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="intro">
+        <div>
+            <h1 class="heythere">Hey there! My name is Aarthi Muthukumar</h1>
+            <h3 class="quickexpo">
+                I'm a high school junior in the San Francisco East Bay. I'm an
+                aspiring medical
+                researcher and engineer, interested in finding the crossroads
+                between
+                human-centered design, the arts, and the medical sciences.
+            </h3>
+        </div>
+    </main>
+    <script>
+        function toggleNav() {
+            $("nav").toggleClass("toggled");
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
