@@ -145,6 +145,22 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.projects{
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  justify-content: left;
+  margin-left: 0.5in;
+}
+.imagegallery{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    justify-content: center;
+    margin-left: 5in;
+    margin-right: 5in;
+    text-align: center;
+}
 
 .heythere {
   color: #3a3a3a;
@@ -152,7 +168,18 @@ main {
   padding: 0 1em;
   font-weight: normal;
 }
-
+.title {
+  color: #3a3a3a;
+  font-size: 3em;
+  padding: 0 1em;
+  font-weight: normal;
+}
+.subtitle{
+  color: #3a3a3a;
+  font-size: 1.5em;
+  padding: 0 1em;
+  font-weight: normal;
+}
 .quickexpo {
   padding: 0 2.1em;
   position: relative;
@@ -169,4 +196,43 @@ main {
   margin-top: 10px;
 }
 
-/*# sourceMappingURL=quickfile.css.map */
+/* This is for Image Galleries*/ 
+.picrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.piccolumn {
+  flex: 50%;
+  padding: 0 4px;
+  margin-bottom: 3.5in;
+  text-align: center;
+}
+
+.piccolumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.zoomjuniorthesis {
+  transition: transform .2s; /* Animation */
+  width: 449px;
+  height: 300px;
+  margin-bottom: 0.5in;
+}
+
+.zoomjuniorthesis:hover {
+  transform: scale(0.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.textbox{
+ margin-left: 0.5in;
+ margin-right: 0.5in;
+ justify-content: left;
+ width: 4in;
+}
+
