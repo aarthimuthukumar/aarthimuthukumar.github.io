@@ -179,6 +179,15 @@ main {
   font-size: 1.5em;
   padding: 0 1em;
   font-weight: normal;
+  border: 0.5in;
+}
+.subtitlewithfooter{
+  color: #3a3a3a;
+  font-size: 1.5em;
+  padding: 0 1em;
+  font-weight: normal;
+  border: 0.5in;
+  height: 1in;
 }
 .quickexpo {
   padding: 0 2.1em;
@@ -217,22 +226,12 @@ main {
   text-align: center;
 }
 
-
 .zoomjuniorthesis {
-  transition: transform .2s; /* Animation */
+  transition: transform .5s; /* Animation */
   width: 449px;
-  height: 300px;
-  margin-bottom: 0.5in;
+  height: 400px;
 }
 
 .zoomjuniorthesis:hover {
-  transform: scale(0.75); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-
-.textbox{
- margin-left: 0.5in;
- margin-right: 0.5in;
- justify-content: left;
- width: 4in;
-}
-
