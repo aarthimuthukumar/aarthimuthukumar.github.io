@@ -249,8 +249,10 @@ main {
   flex: 50%;
   padding: 10px;
   margin-left: 0.5in;
-  height: 6in;
+  height: 10in;
+  margin-bottom: 30px;
   width: 550px;
   justify-content: left;
+  font-size: 14pt;
 
 }
